@@ -1,0 +1,35 @@
+{
+  "name": "event-boi",
+  "author": {
+    "name": "Harry Grumbar",
+    "email": "harry@grumbar.me"
+  },
+  "keywords": [
+    "eventbus"
+  ],
+  "version": "1.0.0-semantically-versioned",
+  "description": "A super-simple event bus",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/esm/index.d.ts",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vitest": "^0.22.1"
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
