@@ -1,4 +1,4 @@
-# EventBoi
+# event-boi
 
 EventBoi is a super-simple, typesafe event bus.
 

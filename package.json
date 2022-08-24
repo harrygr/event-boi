@@ -4,6 +4,7 @@
     "name": "Harry Grumbar",
     "email": "harry@grumbar.me"
   },
+  "repository": "https://github.com/harrygr/event-boi",
   "keywords": [
     "eventbus"
   ],
