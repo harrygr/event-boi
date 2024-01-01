@@ -20,7 +20,7 @@
   "private": false,
   "devDependencies": {
     "typescript": "^5.0.4",
-    "vitest": "^0.34.3"
+    "vitest": "^1.1.1"
   },
   "scripts": {
     "test": "vitest",
