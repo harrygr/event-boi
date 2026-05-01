@@ -19,7 +19,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "typescript": "^5.0.4",
+    "typescript": "^6.0.3",
     "vitest": "^4.0.6"
   },
   "scripts": {
